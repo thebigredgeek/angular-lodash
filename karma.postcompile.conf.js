@@ -15,6 +15,7 @@ module.exports = function(config) {
     files: [
       // bower:js
       'bower_components/angular/angular.js',
+      'bower_components/lodash/dist/lodash.compat.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'dist/' + name + '.min.js',

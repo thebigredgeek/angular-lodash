@@ -3,11 +3,11 @@
   "description": "Lodash for AngularJS",
   "version": "0.1.0",
   "main": [
-    "dist/angular-lodash.min.js",
-    "dist/angular-lodash.min.css"
+    "dist/angular-lodash.min.js"
   ],
   "dependencies": {
-    "angular": "~1.2.15"
+    "angular": "~1.2.15",
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.15"
