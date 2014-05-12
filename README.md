@@ -8,4 +8,23 @@ Lodash injectable for AngularJS
 
 Using [Bower](http://bower.io/):
 
-    $ bower install --save angular-lodash
+    $ bower install --save tbrg.angular-lodash
+    
+
+### Usage
+
+Inject `$lodash` like so:
+
+    angular
+      .module('foo',[
+        'tbrg.angular-lodash'
+      ])
+      .controller('bar',[
+      
+        '$lodash',
+        
+        function($lodash){
+        
+        }
+        
+      ]);
